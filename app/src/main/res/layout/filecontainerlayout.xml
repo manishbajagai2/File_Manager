@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="4dp"
+    android:id="@+id/container"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/filecontainerfiletype"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/folder"
+            android:padding="2dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filecontainerfilename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="File Name"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:fontFamily="serif"
+                />
+
+            <TextView
+                android:id="@+id/filecontainerfilesize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 file"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/drawable/folder.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/drawable/main_activity_background.xml" value="0.24256410256410257" />
+        <entry key="app/src/main/res/drawable/rename.xml" value="0.24635416666666668" />
+        <entry key="app/src/main/res/layout/activity_home_category.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/categoryviewholdersingle.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/create_file.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/create_file_items.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/filecontainerlayout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_homefragment.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_internalfragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/homesingle.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/option_dialogue.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/option_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/options_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24635416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

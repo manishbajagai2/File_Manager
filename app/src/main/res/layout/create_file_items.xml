@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateFileItems"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For Api &lt;= 29"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Enter name of the Folder"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            >
+            <Button
+                android:id="@+id/bt_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Folder"
+                android:textSize="14sp"
+                android:layout_margin="8dp"
+                />
+
+            <Button
+                android:id="@+id/bt_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open"
+                android:textSize="14sp"
+                android:layout_margin="8dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Created Files will be shown here :"
+            android:textSize="18sp"
+            android:gravity="center"
+            />
+        <ListView
+            android:id="@+id/fileList"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create File"
+            android:onClick="createFile"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
